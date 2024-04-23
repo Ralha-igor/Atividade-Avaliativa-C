@@ -1,0 +1,78 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <time.h>
+
+void dados1(void codigo, void nome, void idade, void sexo, void salario);
+void dados2(void codigo, void nome, void idade, void sexo, void salario);
+void dados3(void codigo, void nome, void idade, void sexo, void salario);
+int main()
+{
+    int opcao;
+    int cod1, cod2, cod3;
+    int idade1,idade2,idade3;
+    float salario1,salario2,salario3;
+    char nome1[50],nome2[50],nome3[50];
+    char sexo1[50],sexo2[50],sexo3[50];
+
+    printf("\n Digite uma opcao para inserir os dados de um funcionario \n [1] Primeiro funcionario: \n [2] Segundo funcionario: \n [3] Terceiro funcionario: ");
+    scanf("%i", &opcao);
+
+
+
+
+    switch(opcao){
+
+case 1:
+    printf("\n Digite o codigo do Primeiro funcionario: ");
+    scanf("\n%i",& cod1);
+    printf("\n Digite o nome do funcionario:  ");
+    scanf("\n%s",& nome1);
+    printf("\n Digite a idade do funcionario: ");
+    scanf("\n%i",& idade1);
+    printf("\n Digite o sexo do funcionario: ");
+    scanf("\n%s",&sexo1);
+    printf("\n Digite o salario do funcionario: ");
+    scanf("\n%f", &salario1);
+    break;
+
+case 2:
+    printf("\n Digite o codigo do Segundo funcionario: ");
+    scanf("\n%i",& cod2);
+    printf("\n Digite o nome do funcionario:  ");
+    scanf("\n%s",& nome2);
+    printf("\n Digite a idade do funcionario: ");
+    scanf("\n%i",& idade2);
+    printf("\n Digite o sexo do funcionario: ");
+    scanf("\n%s",&sexo2);
+    printf("\n Digite o salario do funcionario: ");
+    scanf("\n%f", &salario2);
+    break;
+
+case 3:
+    printf("\n Digite o codigo do terceiro funcionario: ");
+    scanf("\n%i",& cod3);
+    printf("\n Digite o nome do funcionario:  ");
+    scanf("\n%s",& nome3);
+    printf("\n Digite a idade do funcionario: ");
+    scanf("\n%i",& idade3);
+    printf("\n Digite o sexo do funcionario: ");
+    scanf("\n%s",&sexo3);
+    printf("\n Digite o salario do funcionario: ");
+    scanf("\n%f", &salario3);
+    break;
+    }
+
+}
+
+
+void dados(void codigo, void nome, void idade, void sexo, void salario)
+{
+    if(codigo < 100){
+        printf("\n O funcionario tem o codigo")
+    }
+    
+    
+}
+

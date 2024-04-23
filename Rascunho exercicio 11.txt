@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int cod1, cod2, cod3;
+    int idade1,idade2,idade3;
+    float salario1,salario2,salario3;
+    char nome1[50],nome2[50],nome3[50];
+    char sexo1[50],sexo2[50],sexo3[50];
+
+    int verificar;
+
+    printf("\n Digite o codigo do Primeiro funcionario: ");
+    scanf("\n%i",& cod1);
+    printf("\n Digite o nome do funcionario:  ");
+    scanf("\n%s",& nome1);
+    printf("\n Digite a idade do funcionario: ");
+    scanf("\n%i",& idade1);
+    printf("\n Digite o sexo do funcionario: ");
+    scanf("\n%s",&sexo1);
+    printf("\n Digite o salario do funcionario: ");
+    scanf("\n%f", &salario1);
+
+    printf("\n Digite o codigo do Segundo funcionario: ");
+    scanf("\n%i",& cod2);
+    printf("\n Digite o nome do funcionario:  ");
+    scanf("\n%s",& nome2);
+    printf("\n Digite a idade do funcionario: ");
+    scanf("\n%i",& idade2);
+    printf("\n Digite o sexo do funcionario: ");
+    scanf("\n%s",&sexo2);
+    printf("\n Digite o salario do funcionario: ");
+    scanf("\n%f", &salario2);
+
+    printf("\n Digite o codigo do terceiro funcionario: ");
+    scanf("\n%i",& cod3);
+    printf("\n Digite o nome do funcionario:  ");
+    scanf("\n%s",& nome3);
+    printf("\n Digite a idade do funcionario: ");
+    scanf("\n%i",& idade3);
+    printf("\n Digite o sexo do funcionario: ");
+    scanf("\n%s",&sexo3);
+    printf("\n Digite o salario do funcionario: ");
+    scanf("\n%f", &salario3);
+
+    if(cod1 < 100 && cod2 < 100 && cod3 < 100){
+        printf("\n todos os funcionarios tem o codigo inferior a 100: \n%i\n%i\n%i", cod1, cod2, cod3);
+    } else if ( cod1 < 100 && cod2 < 100 && cod3 > 100){
+        printf("\n O ultimo funcionario tem o codigo superior a 100, o codigo dos outros dois eh: \n%i \n%i: ", cod1, cod2);
+        }else if ( cod1 < 100 && cod2 < 100 && cod3 > 100){
+            }else if ( cod1 < 100 && cod2 < 100 && cod3 > 100){
+                }else if ( cod1 < 100 && cod2 < 100 && cod3 > 100){
+                    }else if ( cod1 < 100 && cod2 < 100 && cod3 > 100){
+                        }else if ( cod1 < 100 && cod2 < 100 && cod3 > 100){
+}

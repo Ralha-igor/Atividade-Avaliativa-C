@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1713216397 source:c:\users\igorr\desktop\lista de ex avaliativa\igorralhaex10.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<math.h>
+
